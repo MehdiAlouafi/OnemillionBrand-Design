@@ -1,0 +1,267 @@
+* {
+  font-family: 'Bitter', cursive;
+}
+
+header {
+  height: 50px;
+  width: 100%;
+  background-color: #212121;
+  vertical-align: top;
+}
+#logo{
+  float: left;
+  margin-top: 15px;
+  
+
+}
+#menu {
+  width: 750px;
+  margin: 0 auto;
+}
+
+ul {
+  display: inline-block;
+  position: relative;
+  left: 250px;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+ul li a:hover {
+  color: rgb(150,150,150);
+}
+
+.hero-header {
+ height: 500px;
+ width: 100%;
+ background-image: url('../images/hero-image.jpg');
+ background-position: 0 15%;
+}
+
+.kicker {
+  text-align: center;
+  vertical-align: top;
+  max-width: 750px;
+  margin: 0 auto;
+}
+.kicker h1 {
+  margin-top: 0;
+  color: white;
+  padding-top: 35px;
+}
+
+.kicker p {
+  color: white;
+  font-size: 15px;
+  line-height: 25px;
+}
+
+#hourofcode {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#code {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.button {
+  color: white;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  background-color: rgb(214,83,83);
+  position: relative;
+  top: 35px;
+  border-radius: 5px;
+
+}
+
+.button:hover {
+  background-color: rgb(243, 76, 66);
+}
+
+
+
+/*#learmorebutton{
+  width: 125px;
+  height: 50px;
+  background-color: #ff5751;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+#learmorebutton:hover {
+  background-color: #d95751;
+}*/
+
+#code-logo {
+  display: block;
+  margin: 70px auto 0 auto;
+}
+
+.academy {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 70px;
+}
+
+
+#brand {
+  padding-bottom: 10px;
+}
+
+.line {
+  height: 2px;
+  width: 100px;
+  background-color: rgba(223,75,64, 0.5);
+  margin: 0 auto;
+  margin-bottom: 30px;
+
+}
+
+#massive {
+  text-transform: uppercase;
+  color: rgb(228,74,60)
+}
+
+#academy {
+  color:rgb(228,74,68);
+}
+
+.academy p {
+  color: rgb( 38,50,56);
+  line-height: 25px;
+}
+
+#whoweare {
+  color: rgb(223,75,64);
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  font-weight: 100;
+}
+
+.involved {
+  text-align: center;
+  background-color: rgb(245,245,245);
+  width: 100%;
+  height: 550px;
+}
+
+.involved h1 {
+  color: rgb(223,75,64);
+  padding-top: 30px;
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-transform: uppercase;
+}
+
+.test {
+  background-color: #212121;
+  color: white;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  vertical-align: top;
+  border-radius: 50%;
+
+}
+
+.fa-pencil:before {
+  position: relative;
+  top: 17px;
+}
+
+.fa-money:before {
+  position: relative;
+  top: 20px;
+}
+
+.fa-user:before {
+  position: relative;
+  top: 18px;
+}
+
+.center {
+text-align: center;}
+
+.container .grid h1 {
+  color: rgb(223,75,64);
+  text-transform: uppercase;
+}
+
+.container .grid p {
+  max-width: 225px;
+  line-height: 25px;
+  margin-bottom: 30px;
+  display: block;
+  margin: 0 auto 25px auto;
+}
+
+.container .grid a {
+  color: rgb(223,75,64);
+  padding: 10px 15px;
+  background-color: #fff;
+  border: 1px solid rgba(33, 33, 33, 0.3);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.container .grid a:hover {
+  background-color: #F1F1EF;
+}
+
+.involv {
+  margin-top: -15px;
+  width: 150px;
+}
+
+footer {
+  width: 100%;
+  height: 250px;
+  background-color: rgb(243,76,66);
+  position: relative;
+}
+
+footer img {
+  margin-left: 55px;
+  position: relative;
+  top: 200px;
+
+}
+
+.chevron {
+  height: 50px;
+  width: 50px;
+  background-color: #212121;
+  color: rgb(243,76,66);
+  border-radius: 50%;
+  font-size: 35px;
+  text-align: center;
+  position: absolute;
+  right: 10px;
+  top: 195px;
+}
+
+.fa-chevron-up:before {
+  position: relative;
+  top: 4px;
+}
+
+#link-top {
+  text-indent: -9999px;
+}
+
+
